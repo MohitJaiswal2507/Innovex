@@ -1,0 +1,28 @@
+{
+  "name": "innovex-seo-nextjs",
+  "version": "0.5.0",
+  "private": true,
+  "description": "INNOVEX 2027 (class prototype) – SEO-first campus tech fest website. CSET489 mini-project, seed P2.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "preview": "serve out -l 3000",
+    "check:seo": "python3 tools/check_seo.py --site out",
+    "lhci": "lhci autorun"
+  },
+  "dependencies": {
+    "next": "16.3.5",
+    "react": "19.1.9",
+    "react-dom": "19.1.9"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "22.18.0",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
+    "serve": "14.2.4",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  },
+  "engines": { "node": ">=20.9" }
+}

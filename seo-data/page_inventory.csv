@@ -1,0 +1,14 @@
+url,page,primary_keyword,title_tag,h1,schema,indexable,status
+/,Home,tech fest 2027,INNOVEX 2027 – Inter-College Tech Fest | Class Prototype,INNOVEX 2027 — Inter-College Tech Fest & Student Tech Conference,Organization; WebSite; Event,yes,built
+/about/,About,inter college tech fest,About INNOVEX – Inter-College Tech Fest & Conference,About INNOVEX: an inter-college tech fest built around students,BreadcrumbList,yes,built
+/events/,Events hub,tech fest events list,Events & Competitions at INNOVEX 2027 Tech Fest,INNOVEX 2027 tech fest events list,BreadcrumbList,yes,built
+/events/hackathon/,24-Hour Hackathon,hackathon for college students,24-Hour Hackathon for College Students | INNOVEX,24-Hour Hackathon for College Students,BreadcrumbList; Event,yes,built
+/schedule/,Schedule,tech fest schedule,INNOVEX 2027 Schedule – Day-wise Tech Fest Timings,INNOVEX 2027 tech fest schedule: day-wise timings,BreadcrumbList,yes,built
+/register/,Register,tech fest registration,"Register for INNOVEX 2027 – Fees, Deadlines, Steps","Register for INNOVEX 2027: fees, deadlines and steps",BreadcrumbList,yes,built
+/speakers/,Speakers & Workshops,student tech conference india,Student Tech Conference & Workshops | INNOVEX,(to write),BreadcrumbList,no (stub),TODO
+/venue/,Venue & Contact,tech fest venue / how to reach,"Venue, Travel & Contact – INNOVEX 2027",(to write),BreadcrumbList,no (stub),TODO
+/faq/,FAQ,tech fest eligibility criteria,"INNOVEX FAQ – Eligibility, Fees & Rules",(to write),BreadcrumbList,no (stub),TODO
+/archive/,Past Editions,tech fest past winners,Past Editions & Results – INNOVEX,(to write),BreadcrumbList,no (stub),TODO
+/blog/,Blog hub,(none – hub),INNOVEX Blog – Hackathon & Tech Fest Guides,(to write),BreadcrumbList,no (stub),TODO
+/blog/how-to-prepare-for-a-hackathon/,Blog 1,how to prepare for a hackathon,How to Prepare for a Hackathon: 10-Step Guide,(to write),BreadcrumbList; Article,no (stub),TODO
+/blog/tech-fest-guide-first-year-students/,Blog 2,tech fest guide for first year students,First-Year Student's Guide to College Tech Fests,(to write),BreadcrumbList; Article,no (stub),TODO

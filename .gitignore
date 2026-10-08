@@ -1,0 +1,7 @@
+node_modules/
+.next/
+out/
+.lighthouseci/
+*.tsbuildinfo
+next-env.d.ts
+*.md

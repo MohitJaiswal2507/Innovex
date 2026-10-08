@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Design tokens (Tailwind v4 CSS-first config) */
+@theme {
+  --color-ink: #1a1c2e;
+  --color-indigo: #22264b;
+  --color-indigo-2: #33386b;
+  --color-orange: #ff6b35;
+  --color-orange-dark: #c2410c;
+  --color-teal: #2ec4b6;
+  --color-teal-dark: #0f766e;
+  --color-violet: #5b5fc7;
+  --color-amber: #ffb627;
+  --color-muted: #55597a;
+  --color-line: #d5d8e6;
+  --color-tint: #f3f4fa;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-white text-ink font-sans leading-relaxed text-[1.0625rem]; }
+  a { @apply text-violet underline-offset-[3px]; }
+  a:hover { @apply text-orange-dark; }
+  :focus-visible { @apply outline-3 outline-offset-2 outline-amber rounded; }
+  h2 { @apply text-2xl md:text-3xl font-bold text-indigo leading-tight mb-3.5; }
+  h3 { @apply text-xl font-bold text-indigo mt-5 mb-2; }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-[min(100%-32px,1120px)]; }
+  .btn { @apply inline-block rounded-xl border-2 border-transparent px-5 py-3 font-bold no-underline cursor-pointer; }
+  .btn-primary { @apply bg-orange text-ink hover:bg-amber hover:text-ink; }
+  .btn-ghost { @apply border-[#c9cce0] text-white hover:bg-indigo-2 hover:text-white; }
+  .btn-dark { @apply bg-indigo text-white hover:bg-indigo-2 hover:text-white; }
+  .card { @apply flex flex-col gap-1.5 rounded-2xl border border-line bg-white p-5; }
+  .tag { @apply inline-block w-fit rounded-full bg-tint px-2.5 py-0.5 text-xs font-bold text-indigo; }
+  .prose-x p, .prose-x li { @apply mb-3; }
+  .prose-x ul { @apply list-disc pl-6; }
+  .eyebrow { @apply mb-2.5 text-sm font-bold uppercase tracking-[.14em] text-orange; }
+  .callout { @apply rounded-2xl border border-[#f2d27a] bg-[#fff4d6] p-5; }
+  .callout-info { @apply rounded-2xl border border-[#9ddfd7] bg-[#e9f8f6] p-5; }
+  .table-wrap { @apply my-3 mb-5 overflow-x-auto rounded-2xl border border-line; }
+  .table-wrap table { @apply w-full min-w-[560px] border-collapse text-[.97rem]; }
+  .table-wrap caption { @apply px-4 py-3 text-left font-bold text-indigo; }
+  .table-wrap th, .table-wrap td { @apply border-t border-line px-4 py-2.5 text-left align-top; }
+  .table-wrap thead th { @apply border-t-0 bg-indigo text-white; }
+  .table-wrap tbody tr:nth-child(even) { @apply bg-tint; }
+  details.faq { @apply mb-2.5 rounded-xl border border-line bg-white px-4 py-3.5; }
+  details.faq summary { @apply cursor-pointer font-bold text-indigo; }
+  details.faq p { @apply mt-2.5 mb-0; }
+}

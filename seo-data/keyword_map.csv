@@ -1,0 +1,18 @@
+keyword,est_monthly_volume_in,est_kd,intent,type,target_url,status
+tech fest 2027,1300,18,Informational,Primary,/,built
+innovex 2027,<50 (brand),0,Navigational,Primary,/,built
+inter college tech fest,390,12,Informational,Primary,/about/,built
+college tech fest,880,22,Informational,Secondary,/about/,built
+tech fest events list,260,9,Informational,Primary,/events/,built
+coding competition for college students,720,17,Commercial,Secondary,/events/,built
+hackathon for college students,1000,19,Commercial,Primary,/events/hackathon/,built
+tech fest schedule,140,6,Informational,Primary,/schedule/,built
+student tech conference india,210,14,Informational,Primary,/speakers/,TODO
+tech workshops for students,170,11,Commercial,Secondary,/speakers/,TODO
+tech fest registration,320,11,Transactional,Primary,/register/,built
+24 hour hackathon registration,170,8,Transactional,Secondary,/register/,built
+tech fest venue / how to reach,140,5,Navigational,Primary,/venue/,TODO
+tech fest eligibility criteria,LT,—,Informational,Primary,/faq/,TODO
+tech fest past winners,LT,—,Navigational,Primary,/archive/,TODO
+how to prepare for a hackathon,590,15,Informational,Primary,/blog/how-to-prepare-for-a-hackathon/,TODO
+tech fest guide for first year students,90,4,Informational,Primary,/blog/tech-fest-guide-first-year-students/,TODO
