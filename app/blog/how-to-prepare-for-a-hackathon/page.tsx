@@ -169,7 +169,7 @@ export default function HackathonGuidePage() {
             </p>
             <p>
               If you are still learning web fundamentals, review the{" "}
-              <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noopener noreferrer">
+              <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development" target="_blank" rel="noopener">
                 MDN Web Development learning guides
               </a>{" "}
               before the event so core concepts feel natural.
@@ -180,7 +180,7 @@ export default function HackathonGuidePage() {
               Install your code editor, Node.js or Python, and Git at home where Wi-Fi is uncrowded. Create your GitHub
               account and test pushing a sample repository so you do not lose an hour to SSH keys or login prompts. If
               you need a quick refresher on repositories and branches, check the{" "}
-              <a href="https://docs.github.com/en/get-started" target="_blank" rel="noopener noreferrer">
+              <a href="https://docs.github.com/en/get-started" target="_blank" rel="noopener">
                 GitHub Get Started documentation
               </a>
               .
@@ -257,6 +257,11 @@ export default function HackathonGuidePage() {
             <p>
               Record a two-minute backup video before code freeze in case Wi-Fi drops or a server restarts during
               finals. Write a clear <code>README.md</code> explaining setup steps and crediting any open-source packages.
+              If you deploy a public project page, apply basic{" "}
+              <a href="https://seonalabs.com" target="_blank" rel="noopener">
+                search optimization fundamentals
+              </a>
+              —a clear title, description and working demo link—so judges and peers can find your work through search.
             </p>
 
             <h2>10. Prioritise self-care and rest</h2>
