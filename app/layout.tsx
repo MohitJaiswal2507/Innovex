@@ -3,6 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
+import Analytics from "@/components/Analytics";
 import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -26,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main id="content">{children}</main>
         <SiteFooter />
+        <Analytics />
       </body>
     </html>
   );

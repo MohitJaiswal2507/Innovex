@@ -5,10 +5,10 @@ url,page,primary_keyword,title_tag,h1,schema,indexable,status
 /events/hackathon/,24-Hour Hackathon,hackathon for college students,24-Hour Hackathon for College Students | INNOVEX,24-Hour Hackathon for College Students,BreadcrumbList; Event,yes,built
 /schedule/,Schedule,tech fest schedule,INNOVEX 2027 Schedule – Day-wise Tech Fest Timings,INNOVEX 2027 tech fest schedule: day-wise timings,BreadcrumbList,yes,built
 /register/,Register,tech fest registration,"Register for INNOVEX 2027 – Fees, Deadlines, Steps","Register for INNOVEX 2027: fees, deadlines and steps",BreadcrumbList,yes,built
-/speakers/,Speakers & Workshops,student tech conference india,Student Tech Conference & Workshops | INNOVEX,(to write),BreadcrumbList,no (stub),TODO
-/venue/,Venue & Contact,tech fest venue / how to reach,"Venue, Travel & Contact – INNOVEX 2027",(to write),BreadcrumbList,no (stub),TODO
-/faq/,FAQ,tech fest eligibility criteria,"INNOVEX FAQ – Eligibility, Fees & Rules",(to write),BreadcrumbList,no (stub),TODO
-/archive/,Past Editions,tech fest past winners,Past Editions & Results – INNOVEX,(to write),BreadcrumbList,no (stub),TODO
-/blog/,Blog hub,(none – hub),INNOVEX Blog – Hackathon & Tech Fest Guides,(to write),BreadcrumbList,no (stub),TODO
-/blog/how-to-prepare-for-a-hackathon/,Blog 1,how to prepare for a hackathon,How to Prepare for a Hackathon: 10-Step Guide,(to write),BreadcrumbList; Article,no (stub),TODO
-/blog/tech-fest-guide-first-year-students/,Blog 2,tech fest guide for first year students,First-Year Student's Guide to College Tech Fests,(to write),BreadcrumbList; Article,no (stub),TODO
+/speakers/,Speakers & Workshops,student tech conference india,Student Tech Conference & Workshops | INNOVEX,Student tech conference and hands-on workshops at INNOVEX 2027,BreadcrumbList,yes,built
+/venue/,Venue & Contact,tech fest venue / how to reach,"Venue, Travel & Contact – INNOVEX 2027","INNOVEX 2027 venue, travel and contact details",BreadcrumbList; Organization,yes,built
+/faq/,FAQ,tech fest eligibility criteria,"INNOVEX FAQ – Eligibility, Fees & Rules","INNOVEX FAQ: eligibility, fees and rules",BreadcrumbList,yes,built
+/archive/,Past Editions,tech fest past winners,Past Editions & Results – INNOVEX,INNOVEX past editions and results,BreadcrumbList,yes,built
+/blog/,Blog hub,(none – hub),INNOVEX Blog – Hackathon & Tech Fest Guides,INNOVEX blog: hackathon and tech fest guides,BreadcrumbList,yes,built
+/blog/how-to-prepare-for-a-hackathon/,Blog 1,how to prepare for a hackathon,How to Prepare for a Hackathon: 10-Step Guide,How to prepare for a hackathon: a 10-step guide for students,BreadcrumbList; Article,yes,built
+/blog/tech-fest-guide-first-year-students/,Blog 2,tech fest guide for first year students,First-Year Student's Guide to College Tech Fests,A first-year student's guide to college tech fests,BreadcrumbList; Article,yes,built

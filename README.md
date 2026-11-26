@@ -11,9 +11,10 @@ Built with **Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS v
 |---|---|
 | Layout, header/menu, footer, design tokens (Tailwind v4) | ✅ |
 | Home, About, Events, 24-Hour Hackathon, Schedule, Register | ✅ metadata, canonical, OG, breadcrumbs, JSON-LD |
-| Speakers, Venue, FAQ, Past Editions, Blog hub, 2 blog posts | ⏳ `noindex` stubs; finish with `Antigravity_prompt.md` |
-| `sitemap.xml` / `robots.txt` generated from code | ✅ |
-| SEO checker (`tools/check_seo.py`) | ✅ 0 errors (7 warnings = the stubs) |
+| Speakers, Venue, FAQ, Past Editions, Blog hub, 2 blog posts | ✅ metadata, canonical, OG, breadcrumbs, JSON-LD (`Article`, `Organization`) |
+| `sitemap.xml` / `robots.txt` generated from code | ✅ 13 indexable routes |
+| SEO checker (`tools/check_seo.py`) | ✅ 0 errors, 0 warnings across 13 pages |
+| Opt-in GA4 analytics & Search Console setup (`docs/analytics-setup.md`) | ✅ `components/Analytics.tsx` + `.env.example` |
 | Lighthouse (mobile) on 4 key pages | ✅ Perf 98–99 · A11y 100 · BP 100 · SEO 100 (`reports/lighthouse/`) |
 | CI: build + SEO check + Lighthouse CI | ✅ `.github/workflows/ci.yml` |
 | VPS scripts (Nginx, UFW, Certbot, rsync deploy) | ✅ `deploy/` (run on your own server) |

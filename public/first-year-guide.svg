@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" role="img" aria-labelledby="fy-title fy-desc">
+  <title id="fy-title">First-year student path at a college tech fest</title>
+  <desc id="fy-desc">Four-step path for first-year students: attend talks, join a workshop, try a beginner coding contest, and visit the project expo.</desc>
+  <rect width="720" height="340" rx="20" fill="#f3f4fa"/>
+  <text x="40" y="48" fill="#c2410c" font-family="system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">FIRST-YEAR TECH FEST PATH</text>
+  <text x="40" y="76" fill="#22264b" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Four easy ways to start at your first fest</text>
+  <!-- Card 1 -->
+  <rect x="40" y="110" width="148" height="175" rx="14" fill="#ffffff" stroke="#d5d8e6" stroke-width="2"/>
+  <circle cx="72" cy="146" r="16" fill="#ff6b35"/>
+  <text x="72" y="151" text-anchor="middle" fill="#1a1c2e" font-family="system-ui, sans-serif" font-size="14" font-weight="800">1</text>
+  <text x="56" y="186" fill="#22264b" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Tech Talks</text>
+  <text x="56" y="212" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">No pressure</text>
+  <text x="56" y="234" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">Learn what seniors</text>
+  <text x="56" y="254" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">are building</text>
+  <!-- Card 2 -->
+  <rect x="204" y="110" width="148" height="175" rx="14" fill="#ffffff" stroke="#d5d8e6" stroke-width="2"/>
+  <circle cx="236" cy="146" r="16" fill="#2ec4b6"/>
+  <text x="236" y="151" text-anchor="middle" fill="#1a1c2e" font-family="system-ui, sans-serif" font-size="14" font-weight="800">2</text>
+  <text x="220" y="186" fill="#22264b" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Workshops</text>
+  <text x="220" y="212" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">Guided setup</text>
+  <text x="220" y="234" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">Build a small app</text>
+  <text x="220" y="254" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">with mentors</text>
+  <!-- Card 3 -->
+  <rect x="368" y="110" width="148" height="175" rx="14" fill="#ffffff" stroke="#d5d8e6" stroke-width="2"/>
+  <circle cx="400" cy="146" r="16" fill="#ffb627"/>
+  <text x="400" y="151" text-anchor="middle" fill="#1a1c2e" font-family="system-ui, sans-serif" font-size="14" font-weight="800">3</text>
+  <text x="384" y="186" fill="#22264b" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Code Sprint</text>
+  <text x="384" y="212" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">Beginner division</text>
+  <text x="384" y="234" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">for 1st and 2nd</text>
+  <text x="384" y="254" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">year students</text>
+  <!-- Card 4 -->
+  <rect x="532" y="110" width="148" height="175" rx="14" fill="#ffffff" stroke="#d5d8e6" stroke-width="2"/>
+  <circle cx="564" cy="146" r="16" fill="#5b5fc7"/>
+  <text x="564" y="151" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-size="14" font-weight="800">4</text>
+  <text x="548" y="186" fill="#22264b" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Hackathon</text>
+  <text x="548" y="212" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">Join a team of 2–4</text>
+  <text x="548" y="234" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">Ship one small</text>
+  <text x="548" y="254" fill="#55597a" font-family="system-ui, sans-serif" font-size="13">working demo</text>
+</svg>

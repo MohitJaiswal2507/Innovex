@@ -91,5 +91,12 @@ export const INDEXABLE_ROUTES: { path: string; priority: number; changeFrequency
   { path: "/events/", priority: 0.8, changeFrequency: "weekly" },
   { path: "/events/hackathon/", priority: 0.9, changeFrequency: "weekly" },
   { path: "/schedule/", priority: 0.8, changeFrequency: "weekly" },
+  { path: "/speakers/", priority: 0.7, changeFrequency: "weekly" },
+  { path: "/venue/", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/faq/", priority: 0.7, changeFrequency: "monthly" },
+  { path: "/archive/", priority: 0.5, changeFrequency: "monthly" },
   { path: "/register/", priority: 0.9, changeFrequency: "weekly" },
+  { path: "/blog/", priority: 0.7, changeFrequency: "weekly" },
+  { path: "/blog/how-to-prepare-for-a-hackathon/", priority: 0.8, changeFrequency: "monthly" },
+  { path: "/blog/tech-fest-guide-first-year-students/", priority: 0.8, changeFrequency: "monthly" },
 ];

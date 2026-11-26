@@ -2,9 +2,15 @@
   "ci": {
     "collect": {
       "staticDistDir": "./out",
-      "url": ["/", "/events/hackathon/", "/schedule/", "/register/"],
-      "numberOfRuns": 1,
-      "settings": { "preset": "mobile" }
+      "url": [
+        "/",
+        "/events/hackathon/",
+        "/schedule/",
+        "/register/",
+        "/blog/how-to-prepare-for-a-hackathon/",
+        "/faq/"
+      ],
+      "numberOfRuns": 1
     },
     "assert": {
       "assertions": {

@@ -32,7 +32,7 @@ export default function AboutPage() {
               <li><strong>Hands-on learning:</strong> every participant leaves having built or tried something new.</li>
               <li><strong>Open to all colleges:</strong> registration is not limited to the host campus.</li>
               <li><strong>Beginner-friendly:</strong> first-year students get a dedicated track in the hackathon and a beginner division in the Code Sprint.</li>
-              <li><strong>Clear information:</strong> one source of truth for dates, venue, rules and results.</li>
+              <li><strong>Clear information:</strong> one source of truth for dates, venue, rules and <Link href="/archive/">results</Link>.</li>
             </ul>
             <h2>Who organises INNOVEX?</h2>
             <p>The fest is run by the INNOVEX Organising Committee, a student team at [University Name] supported by faculty coordinators from the department of computer science. The committee handles events, registrations, hospitality and outreach. You can reach the team through the <Link href="/venue/">venue and contact page</Link>.</p>

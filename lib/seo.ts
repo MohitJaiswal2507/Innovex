@@ -112,3 +112,49 @@ export function breadcrumbLd(items: Crumb[]) {
     itemListElement: items.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.name, item: `${SITE_URL}${c.path}` })),
   };
 }
+
+export const organizationContactLd = {
+  ...organizationLd,
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      contactType: "registrations",
+      email: CONTACT_EMAIL,
+      availableLanguage: ["English", "Hindi"],
+    },
+    {
+      "@type": "ContactPoint",
+      contactType: "hackathon support",
+      email: CONTACT_EMAIL,
+      availableLanguage: ["English", "Hindi"],
+    },
+    {
+      "@type": "ContactPoint",
+      contactType: "hospitality",
+      email: CONTACT_EMAIL,
+      availableLanguage: ["English", "Hindi"],
+    },
+  ],
+};
+
+export function articleLd(opts: {
+  headline: string;
+  description: string;
+  path: string;
+  image: string;
+  datePublished: string;
+  dateModified: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: opts.headline,
+    description: opts.description,
+    image: [`${SITE_URL}${opts.image}`],
+    datePublished: opts.datePublished,
+    dateModified: opts.dateModified,
+    author: { "@id": `${SITE_URL}/#organization` },
+    publisher: { "@id": `${SITE_URL}/#organization` },
+    mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}${opts.path}` },
+  };
+}

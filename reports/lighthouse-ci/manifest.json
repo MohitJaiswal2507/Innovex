@@ -1,0 +1,74 @@
+[
+  {
+    "url": "http://localhost:60709/",
+    "isRepresentativeRun": true,
+    "htmlPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost--2026_11_26_14_44_44.report.html",
+    "jsonPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost--2026_11_26_14_44_44.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 0.96,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://localhost:60709/events/hackathon/",
+    "isRepresentativeRun": true,
+    "htmlPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost-events_hackathon_-2026_11_26_14_44_57.report.html",
+    "jsonPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost-events_hackathon_-2026_11_26_14_44_57.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 1,
+      "best-practices": 0.96,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://localhost:60709/schedule/",
+    "isRepresentativeRun": true,
+    "htmlPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost-schedule_-2026_11_26_14_45_08.report.html",
+    "jsonPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost-schedule_-2026_11_26_14_45_08.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 1,
+      "best-practices": 0.96,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://localhost:60709/register/",
+    "isRepresentativeRun": true,
+    "htmlPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost-register_-2026_11_26_14_45_20.report.html",
+    "jsonPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost-register_-2026_11_26_14_45_20.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 1,
+      "best-practices": 0.96,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://localhost:60709/blog/how-to-prepare-for-a-hackathon/",
+    "isRepresentativeRun": true,
+    "htmlPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost-blog_how_to_prepare_for_a_hackathon_-2026_11_26_14_45_32.report.html",
+    "jsonPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost-blog_how_to_prepare_for_a_hackathon_-2026_11_26_14_45_32.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 1,
+      "best-practices": 0.96,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://localhost:60709/faq/",
+    "isRepresentativeRun": true,
+    "htmlPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost-faq_-2026_11_26_14_45_43.report.html",
+    "jsonPath": "C:\\Users\\usern\\Desktop\\SEO\\Project\\innovex-seo-nextjs\\reports\\lighthouse-ci\\localhost-faq_-2026_11_26_14_45_43.report.json",
+    "summary": {
+      "performance": 0.99,
+      "accessibility": 1,
+      "best-practices": 0.96,
+      "seo": 1
+    }
+  }
+]
