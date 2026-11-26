@@ -2,7 +2,7 @@
 // Every page reads from here, so a date or fee changes in one place only.
 // All values are PLACEHOLDERS for a fictional class-prototype event.
 
-export const SITE_URL = "https://innovexfest.tech"; // proposed domain – replace after registering
+export const SITE_URL = "https://innovex-seo-nextjs.vercel.app";
 export const SITE_NAME = "INNOVEX 2027";
 export const ORG_NAME = "INNOVEX Organising Committee (Class Prototype)";
 export const CONTACT_EMAIL = "team@innovexfest.tech";

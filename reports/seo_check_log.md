@@ -1,6 +1,6 @@
 # SEO check log
 
-Run: 2026-11-26 20:58  
+Run: 2026-11-26 21:35  
 Site folder: `out`  
 Pages: 13 · Indexable: 13 · In sitemap: 13 · **Errors: 0 · Warnings: 0**
 

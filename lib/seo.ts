@@ -151,10 +151,10 @@ export function articleLd(opts: {
     headline: opts.headline,
     description: opts.description,
     image: [`${SITE_URL}${opts.image}`],
-    datePublished: opts.datePublished,
-    dateModified: opts.dateModified,
-    author: { "@id": `${SITE_URL}/#organization` },
-    publisher: { "@id": `${SITE_URL}/#organization` },
+    datePublished: `${opts.datePublished}T09:00:00+05:30`,
+    dateModified: `${opts.dateModified}T09:00:00+05:30`,
+    author: { "@type": "Organization", "@id": `${SITE_URL}/#organization`, name: ORG_NAME, url: `${SITE_URL}/` },
+    publisher: { "@type": "Organization", "@id": `${SITE_URL}/#organization`, name: ORG_NAME, url: `${SITE_URL}/` },
     mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}${opts.path}` },
   };
 }

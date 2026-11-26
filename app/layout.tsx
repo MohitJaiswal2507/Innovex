@@ -6,12 +6,12 @@ import SiteFooter from "@/components/SiteFooter";
 import Analytics from "@/components/Analytics";
 import { SITE_URL } from "@/lib/site";
 
-const gscToken = process.env.NEXT_PUBLIC_GSC_VERIFICATION?.trim();
+const gscToken = process.env.NEXT_PUBLIC_GSC_VERIFICATION?.trim() || "v28cBXaea2X6Xn6lEpiuIYQi3IHdk3zwV8vCWtbO4nM";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL), // turns relative canonical/OG paths into absolute URLs
   icons: { icon: "/logo.svg" },
-  ...(gscToken ? { verification: { google: gscToken } } : {}),
+  verification: { google: gscToken },
 };
 
 export const viewport: Viewport = { themeColor: "#22264b" };
